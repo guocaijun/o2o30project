@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get("/m",function(){
+	echo "哈哈 这是彩军1";
+});
